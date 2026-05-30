@@ -29,7 +29,7 @@ To create an **abstract class** named `Shape` with an **abstract method** `calcu
 ---
 
 ## 💻 Program
-```
+```python
 from abc import ABC
 class Shape(ABC):
     def calculate_area(self):
